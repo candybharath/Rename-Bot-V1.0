@@ -18,15 +18,15 @@ async def start(client, message):
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton(" Developer ", callback_data='dev')
         ],[
-        InlineKeyboardButton(' Updates', url='https://t.me/WebXBots'),
-        InlineKeyboardButton(' Support', url='https://t.me/Web_X_Support')
+        InlineKeyboardButton(' Updates', url='https://telegram.me/+acU5FWqaSYtkMTJl'),
+        InlineKeyboardButton(' Support', url='https://telegram.me/+acU5FWqaSYtkMTJl')
         ],[
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/DCinemasz')
+        InlineKeyboardButton(" Join Our Movie Channel !", url='https://telegram.me/Moviezs_Store')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/@Divin_Dass')
+        InlineKeyboardButton(" MAIN CHANNEL ", url='https://telegram.me/TamilMovies_Workshop')
         ]
         ])
     if START_PIC:
