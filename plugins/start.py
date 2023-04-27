@@ -72,15 +72,15 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
         InlineKeyboardButton(" Developer ", callback_data='dev')
         ],[
-        InlineKeyboardButton(' Updates', url='https://t.me/WebXBots'),
-        InlineKeyboardButton(' Support', url='https://t.me/Web_X_Support')
+        InlineKeyboardButton(' Updates', url='https://telegram.me/+acU5FWqaSYtkMTJl'),
+        InlineKeyboardButton(' Support', url='https://telegram.me/+acU5FWqaSYtkMTJl')
         ],[
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/DCinemasz')
+        InlineKeyboardButton(" Join Our Movie Channel !", url='https://telegram.me/Moviezs_Store')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/@Divin_Dass')
+        InlineKeyboardButton(" MAIN CHANNEL", url='https://telegram.me/TamilMovies_Workshop')
         ]
         ]
                 )
@@ -89,7 +89,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/DCinemasz")
+               InlineKeyboardButton(" Join our Movie Channel ", url="https://telegram.me/Moviezs_Store")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -101,7 +101,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.ABOUT_TXT.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/DCinemasz")
+                InlineKeyboardButton(" Join our Movie Channel ", url="https://telegram.me/Moviezs_Store")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -112,7 +112,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/DCinemasz")
+                InlineKeyboardButton(" Join our Movie Channel ", url="https://telegram.me/Moviezs_Store")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
